@@ -1,0 +1,35 @@
+header{
+    height: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    max-width: 760px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+}
+
+header li {
+    display: inline-block;
+    
+}
+
+header li a {
+    padding: 10px 15px;
+    position: relative;
+}
+
+header li a:hover:after{
+    content: "";
+    width: calc(100% - 30px);
+    height: 2px;
+    position: absolute;
+    left: 16px;
+    bottom: 8px;
+    background-color: var(--lightblue);
+}

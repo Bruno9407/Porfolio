@@ -1,0 +1,81 @@
+#formacao {
+    background: url("../images/formacaoBG.svg") no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+#formacao h2 {
+    margin-bottom: 160px;
+    text-align: center;
+}
+
+.feitos{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 100px;
+    justify-content: center;
+}
+
+.bacharel, .cursos, .idiomas{
+    position: relative;
+}
+
+.bacharel::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -40px;
+    top: -5px;
+    background: url("../images/bacharel.svg") no-repeat;
+    background-size: contain;
+}
+
+.cursos::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -40px;
+    top: -3px;
+    background: url("../images/courses.svg") no-repeat;
+    background-size: contain;
+}
+
+.idiomas::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -40px;
+    top: -5px;
+    background: url("../images/languages.svg") no-repeat;
+    background-size: contain;
+}
+
+.slide{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+}
+
+.curso{
+    width: 160px;
+    height: 140px;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    align-content: space-between;
+    color: var(--graytext);
+    background-color: var(--cursoback);
+}
+
+.curso div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#idioma{
+    margin-bottom: 100px;
+}
