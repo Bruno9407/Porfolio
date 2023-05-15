@@ -56,3 +56,17 @@ h1::before{
     background: url("../images/location.svg") no-repeat;
     background-size: contain;
 }
+
+@media (max-width: 800px) {
+    #eu{
+        display: none;
+        
+    }
+
+    .sobre{
+        grid-template-columns: auto;
+        gap: 0;
+    }
+
+    
+}

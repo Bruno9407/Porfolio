@@ -57,3 +57,21 @@
     background-size: contain;
 }
 
+@media (max-width: 800px) {
+    #projetos {
+        grid-template-columns: auto;
+        padding-left: 20px;
+    }
+
+    .projeto{
+        display: grid;
+        grid-template-columns: 300px;
+        gap: 10px;
+        height: auto;
+    }
+
+    #codar{
+        background-size:contain;
+        height: 300px;      
+    }
+}

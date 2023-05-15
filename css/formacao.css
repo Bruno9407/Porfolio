@@ -15,7 +15,7 @@
     grid-template-columns: auto;
     gap: 100px;
     justify-content: center;
-    padding: 120px 0 60px 0;
+    padding: 120px 0 60px 60px;
 }
 
 .bacharel, .cursos, .idiomas{
@@ -56,13 +56,14 @@
 }
 
 .slide{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
     gap: 40px;
+    max-width: calc(100vw - 60px);
+    overflow-x: scroll;
 }
 
 .curso{
-    width: 160px;
+    min-width: 160px;
     height: 140px;
     padding: 20px;
     border-radius: 10px;
@@ -77,3 +78,19 @@
     justify-content: space-between;
 }
 
+@media (max-width: 800px) {
+    #formacao{
+        background-size: cover;
+    }
+
+    #formacao h2 {
+        max-width: initial;
+        text-align: center;
+    }
+
+    .feitos{
+        gap: 50px;
+    }
+
+    
+}
