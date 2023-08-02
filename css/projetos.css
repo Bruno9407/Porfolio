@@ -24,7 +24,7 @@
     position: absolute;
     top: 0;
     left: -20px;
-    background: url("../images/projeto.svg");
+    background: url("../images/svgs/projeto.svg");
     background-size: cover;
 }
 
@@ -52,7 +52,7 @@
 }
 
 #codar{
-    background-image: url("../images/default.svg");
+    background-image: url("../images/svgs/default.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }

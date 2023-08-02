@@ -38,7 +38,7 @@ h1::before{
     height: 50px;
     left: -25px;
     top: 0px;
-    background: url("../images/bigdetail.svg") no-repeat;
+    background: url("../images/svgs/bigdetail.svg") no-repeat;
     background-size: contain;
     z-index: -1;
 }
@@ -53,7 +53,7 @@ h1::before{
     height: 20px;
     position: absolute;
     left: -20px;
-    background: url("../images/location.svg") no-repeat;
+    background: url("../images/svgs/location.svg") no-repeat;
     background-size: contain;
 }
 

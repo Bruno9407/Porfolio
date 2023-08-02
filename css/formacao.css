@@ -1,5 +1,5 @@
 #formacao {
-    background: url("../images/formacaoBG.svg") no-repeat;
+    background: url("../images/svgs/formacaoBG.svg") no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -29,7 +29,7 @@
     position: absolute;
     left: -40px;
     top: -5px;
-    background: url("../images/bacharel.svg") no-repeat;
+    background: url("../images/svgs/bacharel.svg") no-repeat;
     background-size: contain;
 }
 
@@ -40,7 +40,7 @@
     position: absolute;
     left: -40px;
     top: -3px;
-    background: url("../images/courses.svg") no-repeat;
+    background: url("../images/svgs/courses.svg") no-repeat;
     background-size: contain;
 }
 
@@ -51,19 +51,24 @@
     position: absolute;
     left: -40px;
     top: -5px;
-    background: url("../images/languages.svg") no-repeat;
+    background: url("../images/svgs/languages.svg") no-repeat;
     background-size: contain;
 }
 
 .slide{
     display: flex;
     gap: 40px;
-    max-width: calc(100vw - 60px);
+    max-width: 600px;
     overflow-x: scroll;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--cursotext);
 }
 
 .curso{
+   
     min-width: 160px;
+    max-width: 200px;
     height: 140px;
     padding: 20px;
     border-radius: 10px;
@@ -91,6 +96,18 @@
     .feitos{
         gap: 50px;
     }
+}
 
+@media (max-width: 700px) {
+    .slide{
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow-y: scroll;
+        max-height: 400px;
+        max-width: 250px;
+    }
     
+    .feitos {
+        padding: 150px 0 0 50px;    
+    }
 }
