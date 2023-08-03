@@ -1,8 +1,29 @@
 [
     {
+        "id": "0",
         "nome": "Portifólio",
-        "descricao": "Portifolio antigo em html css e javascript apenas falando um pouco sobre minhas habilidades e conhecimentos.",
-        "imagem": "",
+        "descricao": "Portifolio em html css e javascript apenas falando um pouco sobre minhas habilidades e conhecimentos.",
+        "data": "2022",
+        "tecnologias": ["HTML", "CSS", "Javascript"],
+        "imagem": "../images/projetos/portfolio.PNG",
         "link": "https://bruno9407.github.io/Portifolio/"
+    },
+    {
+        "id": "1",
+        "nome": "Portifólio em React",
+        "descricao": "Um portfólio em ReacJs para praticar meus conhecimentos, foi meu primeiro projeto no Framework.",
+        "tecnologias": ["HTML", "CSS", "Javascript", "ReactJs"],
+        "data":"2021",
+        "imagem": "../images/projetos/portReact.PNG",
+        "link": "https://brunoxavier.vercel.app/"
+    }, 
+    {
+        "id": "3",
+        "nome": "Cadastro de Jogos",
+        "descricao": "Cadastramento e listagem do jogos feito usando NodeJs no backend com Express e MySQL.",
+        "tecnologias": ["HTML", "CSS", "Javascript", "NodeJs", "MySQL"],
+        "data": "2023",
+        "imagem": "../images/projetos/cadastrojogos.png",
+        "link": "https://github.com/Bruno9407/Node-Cadastro-De-Jogos"
     }
 ]

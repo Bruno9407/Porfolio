@@ -15,6 +15,7 @@
     "nome": "",
     "descricao": "",
     "tecnologias": "",
+    "data": "",
     "imagem": "",
     "link": ""
 }

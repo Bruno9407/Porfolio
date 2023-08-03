@@ -6,6 +6,16 @@
     margin-top: 60px; 
 }
 
+.projetos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    justify-content: center;
+}
+
+.centrocelular{
+    text-align: right;
+}
 
 .projeto {
     display: grid;
@@ -33,6 +43,18 @@
     grid-template-columns: auto;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.tech{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: var(--cursotext);
+    padding: 5px;
+    border-radius: 4px;
 }
 
 .mais{
@@ -51,10 +73,10 @@
     background-color: var(--darkblue);
 }
 
-#codar{
-    background-image: url("../images/svgs/default.svg");
+.bgimg{
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 5px;
 }
 
 @media (max-width: 800px) {
@@ -70,8 +92,12 @@
         height: auto;
     }
 
-    #codar{
-        background-size:contain;
-        height: 300px;      
+    .bgimg{
+        background-size: cover;
+        height: 300px;
+    }
+
+    .centrocelular{
+        text-align: center;
     }
 }

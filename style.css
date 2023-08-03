@@ -78,6 +78,10 @@ img{
     margin: auto;
 }
 
+.txtesquerda {
+    text-align: left;
+}
+
 .txtdireita{
     text-align: right;
 }
