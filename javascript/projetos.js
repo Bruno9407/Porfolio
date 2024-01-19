@@ -1,12 +1,14 @@
+import projetos from '../jsons/projetos.json' assert { type: 'json' }
 
 function createProjetos() {
-    const area = document.querySelector(".projetos")
 
-    fetch("../jsons/projetos.json")
+    /*fetch("../jsons/projetos.json")
     .then(res => res.json())
     .then(res => {
-        res.forEach(projeto => {
-            area.innerHTML +=`
+        res.*/
+    
+        projetos.forEach(projeto => {
+            document.querySelector(".projetos").innerHTML +=`
             <a href="${projeto.link}" class="projeto">
                     <div style="background-image: url('${projeto.imagem}')" class="bgimg"></div>
                     <div class="descricao">
@@ -22,7 +24,7 @@ function createProjetos() {
                             `
                         })             
         });
-    })
+    //})
 }
 
 

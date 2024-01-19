@@ -1,10 +1,13 @@
+import cursos from '../jsons/cursos.json' assert { type: 'json' }
 
 function createCursos() {
 
-    fetch("../jsons/cursos.json")
+    /*fetch("../jsons/cursos.json")
     .then(res => res.json())
     .then(res =>{
-        res.map((curso) => {
+        res.*/
+        
+        cursos.map((curso) => {
             document.querySelector(".slide").innerHTML += `
             <a href="${curso.link}" target="_blank" class="curso">
                 <p>${curso.instituicao}</p>
@@ -17,7 +20,7 @@ function createCursos() {
             `
         
         });
-    })
+    //})
 }
 
 export default createCursos;
