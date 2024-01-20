@@ -5,7 +5,7 @@
         "descricao": "Portifolio em html css e javascript apenas falando um pouco sobre minhas habilidades e conhecimentos.",
         "data": "2022",
         "tecnologias": ["HTML", "CSS", "Javascript"],
-        "imagem": "../images/projetos/portfolio.PNG",
+        "imagem": "../images/projetos/portfolio.png",
         "link": "https://bruno9407.github.io/Portifolio/"
     },
     {
@@ -14,7 +14,7 @@
         "descricao": "Um portfólio em ReacJs para praticar meus conhecimentos, foi meu primeiro projeto no Framework.",
         "tecnologias": ["HTML", "CSS", "Javascript", "ReactJs"],
         "data":"2021",
-        "imagem": "../images/projetos/portReact.PNG",
+        "imagem": "../images/projetos/portreact.png",
         "link": "https://brunoxavier.vercel.app/"
     }, 
     {
