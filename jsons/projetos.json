@@ -5,7 +5,7 @@
         "descricao": "Portifolio em html css e javascript apenas falando um pouco sobre minhas habilidades e conhecimentos.",
         "data": "2022",
         "tecnologias": ["HTML", "CSS", "Javascript"],
-        "imagem": "./Portfolio/images/projetos/portfolio.png",
+        "imagem": "./images/projetos/portfolio.png",
         "link": "https://bruno9407.github.io/Portifolio/"
     },
     {
@@ -14,7 +14,7 @@
         "descricao": "Um portfólio em ReacJs para praticar meus conhecimentos, foi meu primeiro projeto no Framework.",
         "tecnologias": ["HTML", "CSS", "Javascript", "ReactJs"],
         "data":"2021",
-        "imagem": "./Portfolio/images/projetos/portreact.png",
+        "imagem": "./images/projetos/portreact.png",
         "link": "https://brunoxavier.vercel.app/"
     }, 
     {
@@ -23,7 +23,7 @@
         "descricao": "Cadastramento e listagem do jogos feito usando NodeJs no backend com Express e MySQL.",
         "tecnologias": ["HTML", "CSS", "Javascript", "NodeJs", "MySQL"],
         "data": "2023",
-        "imagem": "./Portfolio/images/projetos/cadastrojogos.png",
+        "imagem": "./images/projetos/cadastrojogos.png",
         "link": "https://github.com/Bruno9407/Node-Cadastro-De-Jogos"
     }
 ]
