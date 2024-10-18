@@ -1,4 +1,4 @@
-import projetos from '../jsons/projetos.json' assert { type: 'json' }
+import projetos from '../jsons/projetos.json' with { type: 'json' }
 
 function createProjetos() {
 

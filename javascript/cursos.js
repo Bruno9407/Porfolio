@@ -1,4 +1,4 @@
-import cursos from '../jsons/cursos.json' assert { type: 'json' }
+import cursos from '../jsons/cursos.json' with { type: 'json' }
 
 function createCursos() {
 
